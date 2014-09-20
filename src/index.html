@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ColorSquareApp">
+    <head>
+        <title>Colored Squares</title>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+        <script type="text/javascript" src="javascript/app.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
+    </head>
+    <body ng-controller="ColorSquareCtrl">
+        <h1>COLORED SQUARES</h1>
+        <div ng-repeat="row in colors " class="row">
+            <div ng-repeat="cell in row" ng-click="increase(cell)" class="square color{{cell.value}}">
+                <div class="text">{{cell.value}}</div>
+            </div>
+        </div>
+    </body>
+</html>
