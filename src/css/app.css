@@ -10,25 +10,32 @@
     border: solid 1px #ccc;
     text-align: center;
     line-height: 50px;
+    font-size: 24px;
+    font-style: bold;
 }
 
 .color0 {
     background-color: black;
+    color: black;
 }
 
 .color1 {
     background-color: red;
+    color: #2F4F4F;
 }
 
 .color2 {
-    background-color: blue;
+    background-color: #0000FF;
+    color: #FF1493;
 }
 
 .color3 {
     background-color: red;
+    color: #1E90FF;
 }
 
 .color4 {
-    background-color: blue;
+    background-color: #0000FF;
+    color: yellow;
 }
 
